@@ -1,0 +1,11 @@
+create unique index AttendeesRegistrationIndex on AttendeesRegistration(LastName,FirstName);
+create unique index DifficultyLevelIndex on DifficultyLevel(DiffTitle);
+create unique index PeopleIndex on People(LastName,FirstName);
+create unique index RaffleIndex on Raffle(RafflePrize);
+create unique index RaffleEntriesIndex on RaffleEntries(Attended);
+create unique index RolesIndex on Roles(RoleName);
+create unique index RoomIndex on Room(RoomNumber);
+create unique index ScheduleIndex on Schedule(SessionName);
+create unique index SessionsIndex on SessionList(SessionName);
+create unique index SponsorsIndex on Sponsors(Sponsor);
+create unique index TrackIndex on Track(TrackDomain);
